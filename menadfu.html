@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Login-RESTAURANT</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <table width="100%" align="center" cellpadding="0" cellspacing="2">
+                <tr>
+                <th width="20%"><img src="nikil.png" alt="FBS LOGO"  width="130" height="100"/></th>
+                <th colspan=4>
+                <h1 style="color:white;">NIKIL RESTAURANT VEG AND NON VEG</h1>
+                </th>
+                </tr>
+                </table>
+            </header>
+            <nav>
+                <table width="100%" align="center" cellpadding="0" cellspacing="2">
+                <tbody align="center"  style="font-weight:bold;font-size:18px;"">
+                <tr>
+                <td width="20%"><hr><a href="index.html">Home</a><hr></td>
+                <td width="20%"><hr><a href="login.html">Login</a><hr></td>
+                <td width="20%"><hr><a href="menu.html">Menu</a><hr></td>
+                <td width="20%"><hr><a href="cart.html" >Cart</a><hr></td>
+                </tr>
+                </tbody>
+                </table>
+            </nav>
+        </div>
+        <div class="container1">
+            <div class="sidebar1"></div>
+            <div class="container2">
+                <main>
+                    <form action="/submit-order" method="POST">
+                        <h2>DOSA</h2>
+                        <div>
+                            <label for="dosa-butter">Dosa (Butter) - 125/-</label>
+                            <input type="checkbox" id="dosa-butter" name="dosa[]" value="Dosa Butter">
+                        </div>
+                        <div>
+                            <label for="onion-dosa-butter">Onion Dosa (Butter) - 136/-</label>
+                            <input type="checkbox" id="onion-dosa-butter" name="dosa[]" value="Onion Dosa Butter">
+                        </div>
+                        <div>
+                            <label for="onion-dosa-butter">Paper Dosa - 100/-</label>
+                            <input type="checkbox" id="onion-dosa-butter" name="dosa[]" value="Onion Dosa Butter">
+                        </div>
+                        <div>
+                            <label for="onion-dosa-butter">Malasa Dosa (Butter) - 125/-</label>
+                            <input type="checkbox" id="onion-dosa-butter" name="dosa[]" value="Onion Dosa Butter">
+                        </div>
+                        <div>
+                            <label for="onion-dosa-butter">Mysore Dosa - 119/-</label>
+                            <input type="checkbox" id="onion-dosa-butter" name="dosa[]" value="Onion Dosa Butter">
+                        </div>
+                        <hr>
+                        <h2>BIRYANI</h2>
+                        <div>
+                            <label for="dum-biryani">Dum Biryani - 125/-</label>
+                            <input type="checkbox" id="dum-biryani" name="biryani[]" value="Dum Biryani">
+                            Quantity: <input type="number" id="dum-biryani-quantity" name="biryani_quantity[]" min="0" value="0">
+                        </div>
+                        <div>
+                            <label for="dum-biryani">Hyderabadi Biryani - 200/-</label>
+                            <input type="checkbox" id="dum-biryani" name="biryani[]" value="Dum Biryani">
+                        </div>
+                        <div>
+                            <label for="dum-biryani">CHICKEN BRIYANI - 250/-</label>
+                            <input type="checkbox" id="dum-biryani" name="biryani[]" value="Dum Biryani">
+                        </div>
+                        <div>
+                            <label for="dum-biryani">MUTTON Biryan- 299/-</label>
+                            <input type="checkbox" id="dum-biryani" name="biryani[]" value="Dum Biryani">
+                        </div>
+                        <div>
+                            <label for="dum-biryani">SPL CHICKEN BRIYANI- 359/-</label>
+                            <input type="checkbox" id="dum-biryani" name="biryani[]" value="Dum Biryani">
+                        </div>
+                        <hr>
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </main>
+            </div>
+            <div class="sidebar2"></div>
+        </div> 
+        <footer><font color="white">(C) 2024 All rights reserved by Restaurant food</font></footer>
+    </div>
+</body>
+</html>
